@@ -13,6 +13,6 @@ public class MovieResource {
 	@RequestMapping("/{movieId}")
 	public Movie getMovieInfo(@PathVariable("movieId") String movieId) {
 
-		return new Movie(movieId, "A Volta Dos Que Não Foram");
+		return new Movie(movieId, "Caverna do Dragão");
 	}
 }
